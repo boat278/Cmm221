@@ -1,0 +1,39 @@
+header .navbar-tabs {
+  justify-content: center;
+}
+
+.highlight {
+  margin-bottom: 0 !important; /*important ให้น้ำหนัก hightlight ว่าสำคัญกว่า เพื่อให้ไม่มีขอบว่างข้างล่างรูป*/
+}
+
+.highlight .highlight-item {
+  height: 416px;
+  background: url(/assets/images/home/banner/highlight.jpg) no-repeat center/cover;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+}
+
+.highlight .highlight-item h1 {
+  font-size: 100px;
+}
+
+.thumbnail {
+  border-top: 0.1rem solid #ffffff; /*solid คือขอบทึบ มีแบบจุดแล้วก็เส้นด้วย*/
+}
+
+.thumbnail .thumbnail-item + .thumbnail-item {
+  border-left: .1rem solid #ffffff; 
+}
+
+.thumbnail .thumbnail-item {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+}
